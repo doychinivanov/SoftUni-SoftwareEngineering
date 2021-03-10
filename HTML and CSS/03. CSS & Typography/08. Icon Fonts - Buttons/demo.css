@@ -1,0 +1,17 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+
+.btn1{
+    background-color: green;
+    color: whitesmoke;
+}
+
+.btn2{
+    background-color: orange;
+    color: whitesmoke;
+}
+.btn1, .btn2{
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 8px;
+}
