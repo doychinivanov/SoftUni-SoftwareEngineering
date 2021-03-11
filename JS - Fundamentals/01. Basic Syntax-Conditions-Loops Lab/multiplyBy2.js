@@ -1,7 +1,7 @@
 function solve(num){
-    num = Number(num);
-    let result = num * 2;
-    console.log(result);
+    
+    return Number(num) * 2;
+    
 }
 
-solve(2)
+console.log(solve(2));
