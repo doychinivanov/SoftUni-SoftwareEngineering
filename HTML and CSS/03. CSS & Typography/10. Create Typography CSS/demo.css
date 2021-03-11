@@ -1,0 +1,53 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+
+.square{
+    list-style-type: square;
+}
+
+.disc{
+    list-style-type: disc;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.table{
+    width: 800px;
+}
+
+
+.head {
+    background-color: rgb(221,221,221);
+}
+
+.th {
+    padding: 3px;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(221,221,221);
+}
+
+blockquote {
+    border-left: rgb(221,221,221) solid;
+    font-style: italic;
+}
+
+blockquote p{
+    font-weight: bold;
+}
+
+blockquote .left {
+    text-align: right;
+}
