@@ -1,0 +1,26 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html{
+    box-sizing: inherit;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+
+section{
+    box-sizing: inherit;
+    width: 250px;
+    height: 250px;
+    border: #16C77E dotted 5px;
+    text-align: center;
+}
+
+p{
+    box-sizing: inherit;
+    width: 100%;
+    padding: 20px;
+    border: #0936CA solid 5px;
+}
