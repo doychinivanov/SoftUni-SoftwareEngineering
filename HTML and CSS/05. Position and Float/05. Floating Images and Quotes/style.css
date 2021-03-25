@@ -1,0 +1,111 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEEEEE;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    border-bottom: 2px solid;
+}
+
+.site-title{
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.prg{
+    float: left;
+    width: 75%;
+}
+
+.img-1{
+    float: right;
+    margin-top: 20px;
+    border: 3px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 22%;
+}
+
+h2{
+    clear: both;
+}
+
+.left{
+    float: left;
+    width: 42%;
+}
+
+.right{
+    float:right;
+    width: 42%;
+    font-style: italic;
+    border-left: 2px solid lightgray;
+    padding-left: 15px;
+    font-family: Georgia, serif;
+}
+
+.right p, 
+.right footer{
+    color: darkgray;
+}
+
+footer{
+    text-align: right;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+.img-2{
+    float: left;
+    border: 3px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 32%;
+}
+
+.p-right{
+    float: right;
+    width: 65%;
+}
+
+main{
+    float: left;
+    width: 82%;
+}
+
+aside{
+    float: right;
+    width: 18%;
+}
+
+aside nav ul li a{
+    color: green;
+}
+
+article{
+    width: 80%;
+}
+
+.site-title, h1, h2, h3{
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
