@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    /* flex-direction: column; */
+    width: 75%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: #EEEEEE;
+}
+
+header, main, aside, footer {
+    border: 2px solid black;
+    flex-wrap: wrap;
+    padding: 6px 5px 52px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background-color: white;
+}
+
+header{
+    flex-grow: 1;
+    flex-basis: 75%;
+    padding: 6px 5px 78px;
+    flex-shrink: 0;
+}
+
+main{
+    flex-grow: 0;
+    flex-basis: 75%;
+    flex-shrink: 1;
+}
+
+aside{
+    flex-grow: 1;
+    margin-left: 5px;
+    padding: 6px 0px 164px;
+    flex-basis: 21%;
+    flex-shrink: 1;
+}
+
+footer{
+    padding: 6px 5px 52px;
+    flex-grow: 1;
+    flex-basis: 75%;
+    flex-shrink: 0;
+}
