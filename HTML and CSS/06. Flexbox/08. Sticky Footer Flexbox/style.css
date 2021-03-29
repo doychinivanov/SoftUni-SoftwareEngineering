@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    border-bottom: 2px solid black;
+    flex: 1;
+    margin-left: 20px;
+}
+
+header h2{
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+main{
+    margin-left: 20px;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    flex: 1;
+    margin: 0;
+    padding: 14px 18px 0px;
+    height: 5%;
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
+}
+
+footer p{
+    margin: 0;
+}
