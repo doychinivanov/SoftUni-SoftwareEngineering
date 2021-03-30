@@ -8,4 +8,4 @@
 *  Using conditional statements (*if, if-else, switch statements*)
 *  Using loops (*for, while, do-while, as well as nested loops*)
 
-### The course is considered successfully passed after taking a practical exam. More details shall be found <a href = "https://softuni.bg/trainings/courses" target="_blank">here</a>.
+### The course is considered successfully passed after taking a practical exam. More details shall be found <a href = "https://softuni.bg/trainings/courses" target="_blank">*here*</a>.
