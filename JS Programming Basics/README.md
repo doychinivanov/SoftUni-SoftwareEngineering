@@ -4,7 +4,7 @@
 *  Developing *basic coding skills*
 *   Working with an integrated development environment (*IDE*)
 *  Using variables, data, operators and expressions
-*  Working with the console (*both reading input data and printing results*)
+*  Working with the console (*printing results*)
 *  Using conditional statements (*if, if-else, switch statements*)
 *  Using loops (*for, while, do-while, as well as nested loops*)
 
