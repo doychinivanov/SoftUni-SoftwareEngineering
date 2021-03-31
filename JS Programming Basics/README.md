@@ -3,7 +3,7 @@
 ### The goal of **"Programming Basics"** course is to deliver the initial programming skills, required for all tech majors at the **Software University**. Which includes:
 *  Developing *basic coding skills*
 *   Working with an integrated development environment (*IDE*)
-*  Using variables, data, operators and expressions
+*  Using variables, arrays, operators and expressions
 *  Working with the console (*printing results*)
 *  Using conditional statements (*if, if-else, switch statements*)
 *  Using loops (*for, while, do-while, as well as nested loops*)
