@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    /* margin: 0 auto; */
+}
+
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+.container img{
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.container .biggest{
+    /* flex-grow: 1; */
+}
+
+.container .else{
+    width: 15%;
+    object-fit: cover;
+    justify-content: space-between;
+}
