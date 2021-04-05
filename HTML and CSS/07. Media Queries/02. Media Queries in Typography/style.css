@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(238, 238, 238);
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.page{
+    margin: 0 auto;
+
+}
+
+
+
+h1, h2{
+    font-family: Georgia, serif;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.main-part{
+    width: 75%;
+}
+
+nav{
+    border-bottom: 2px solid black;
+    max-width: 60vw;
+}
+
+nav h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.first-section .img-right{
+    border: 2px solid black;
+    padding: 10px 10px;
+    height: 14%;
+    width: 17%;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.blk{
+    display: flex;
+    align-items: center;
+}
+
+.blk blockquote{
+    border-left: 2px solid darkgray;
+    padding-left: 10px;
+    color: darkgrey;
+    font-family: Georgia, serif;
+}
+
+.blk blockquote .author{
+    text-align: right;
+}
+
+
+
+.third-section .image-left{
+    border: 2px solid black;
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-right: 15px;
+}
+
+aside{
+    margin-left: 40px;
+}
+
+
+aside ul li a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+
+@media all and (max-width:500px){
+    body{
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width:500px){
+    body{
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width:600px){
+    body{
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width:800px){
+    body{
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width:1300px){
+    body{
+        font-size: 21px;
+    }
+}
+
+@media all and (min-width:1800px){
+    body{
+        font-size: 23px;
+    }
+}
+
