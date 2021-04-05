@@ -1,0 +1,38 @@
+.mq-width span::before{
+    content: "MQ Width:";
+    display: inline;
+    width: 100%;
+}
+
+.mq-width span::after{
+    content: " Viewport width is larger than 600px";
+    display: inline;
+    width: 100%;
+    color: #145E11;
+}
+
+.mq-height span::before{
+    content: "MQ Height:";
+    display: inline;
+    width: 100%;
+}
+
+.mq-height span::after{
+    content: " Viewport height is larger than 600px";
+    display: inline;
+    width: 100%;
+    color: #145E11;
+}
+
+.mq-ar span::before{
+    content: "MQ Aspect Ration:";
+    display: inline;
+    width: 100%;
+}
+
+.mq-ar span::after{
+    content: " Aspect Ration is larger than 8/5";
+    display: inline;
+    width: 100%;
+    color: #145E11;
+}
