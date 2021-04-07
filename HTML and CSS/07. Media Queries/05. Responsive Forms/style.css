@@ -1,0 +1,72 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+.form-wrapper{
+    background-color: #EEE;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    margin: 15% auto;
+}
+
+.form-wrapper form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrapper form label{
+    font-weight: bold;
+}
+
+.form-wrapper p {
+    border: 1px solid grey;
+    position: relative;
+    top: -30px;
+    background-color: #EEE;
+    width: 20%;
+    padding: 5px 19px;
+    border-radius: 4px;
+}
+
+.form-wrapper button{
+    align-self: baseline;
+    background-color: #2D2D2D;
+    color: white;
+    padding: 5px 16px;
+    border-radius: 7px;
+    border: none;
+}
+
+.user,
+.pass{
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.user{
+    margin-bottom: 17px;
+    margin-top: -23px;
+}
+
+
+.pass{
+    margin-bottom: 20px;
+}
+
+.user input,
+.pass input{
+    flex: 1;
+    height: 20px;
+}
+
+
+input:focus {
+    background-color: yellow;
+  }
+
+.user i,
+.pass i{
+    position: relative;
+    right: -22px;
+}
