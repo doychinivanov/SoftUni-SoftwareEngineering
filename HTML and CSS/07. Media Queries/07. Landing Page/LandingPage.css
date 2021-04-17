@@ -1,0 +1,358 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+body>* {
+    display: flex;
+}
+
+main>* {
+    display: flex;
+}
+
+header {
+    display: flex;
+    width: 95%;
+    margin: 20px 200px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.purple-spider {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    margin: 0;
+}
+
+.last-agency {
+    margin-top: 5px;
+    width: 97%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    margin-right: 19%;
+}
+
+.navigation-ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation-ul li {
+    padding-left: 28px;
+}
+
+main {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.need-website {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+}
+
+.need-website span {
+    width: 44%;
+    margin-right: 76px;
+}
+
+.project-button {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 37px;
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.need-website-text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fas, .fa-globe-americas {
+    font-size: 200px;
+}
+
+
+.our-team {
+    align-self: center;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.our-team h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+}
+
+.our-team .line {
+    border-bottom: 2px solid black;
+    width: 6%;
+    align-self: center;
+}
+
+.photos {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.photo p {
+    margin-bottom: 0;
+}
+
+.photo p:nth-child(2) {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.photo p:nth-child(3) {
+    margin-top: 5px;
+}
+
+.photo p:nth-child(4) {
+   font-size: 13px;
+}
+
+.photo img {
+    border-radius: 72%;
+    width: 139px;
+    height: 130px;
+}
+
+.row-1 {
+    display: flex;
+    width: 58%;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.row-2 {
+    display: flex;
+    width: 58%;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.newsletter {
+    background-color: rgb(104, 52, 123);
+    color: white;
+    margin-top: 4%;
+    width: 100%;
+    height: 233px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter div {
+    border-bottom: 2px solid black;
+    margin: 25px;
+    width: 6%;
+}
+
+.newsletter h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+
+.newsletter label {
+    width: 29%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter label input:nth-child(1) {
+    width: 65%;
+    height: 28px;
+}
+
+.newsletter label input:nth-child(2) {
+    width: 32%;
+    height: 34px;
+    font-size: 19px;
+    background-color: white;
+    border: none;
+}
+
+
+
+
+.testimonials {
+    align-self: center;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.testimonials h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+}
+
+.testimonials .line {
+    border-bottom: 2px solid black;
+    width: 6%;
+    align-self: center;
+}
+
+.photos {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo2 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.photo2 p {
+    margin-bottom: 0;
+}
+
+.photo2 p:nth-child(2) {
+    font-size: 15px;
+}
+
+.photo2 p:nth-child(3) {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.photo2 p:nth-child(4) {
+   font-size: 13px;
+   margin-top: 5px;
+}
+
+.photo2 img {
+    border-radius: 72%;
+    width: 139px;
+    height: 130px;
+}
+
+.row-1 {
+    display: flex;
+    width: 58%;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.row-2 {
+    display: flex;
+    width: 58%;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+footer {
+    border-top: 2px solid grey;
+    margin-top: 5%;
+}
+
+.col1-and-col2 {
+    display: none;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container span {
+    margin: 50px
+}
+
+.column1 {
+    width: 20%;
+}
+
+.column1 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.column2 li {
+    margin-bottom: 6px;
+}
+
+.column3 {
+    padding-top: 51px;
+}
+
+.column3 li {
+    margin-bottom: 6px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fa-phone-volume, .fa-envelope, .fa-clock, .fa-map-marked-alt {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.icons-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-text ul {
+    margin: 0;
+}
+
+.icons-text li {
+    margin-bottom: 6px;
+}
+
+.icons-column {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-right: 10px;
+}
