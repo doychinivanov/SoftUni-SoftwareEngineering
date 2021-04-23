@@ -1,0 +1,58 @@
+@media all and (max-width:600px){
+
+    .banner h2{
+        width: 90%;
+    font-size: 1.7em;
+    }
+
+    .banner .actions li{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .banner .actions li .button.special{
+        flex-basis: 90%;
+    }
+
+    .wrapper.special{
+        display: flex;
+    }
+
+    .inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .features{
+       flex-direction: column;
+   }
+
+   .features .feature{
+       width: 100vw;
+   }
+
+   .grid-form .form-control.narrow {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
+    .wrapper.style2.special .inner.narrow{
+        width: 28em;
+    }
+
+    .grid-form .actions li{
+        display: flex;
+    }
+
+    .grid-form .actions li input{
+        flex-basis: 100%;
+    }
+
+    .footer::before{
+        left: 5%;
+        width: 90%;
+    }
+
+} 
