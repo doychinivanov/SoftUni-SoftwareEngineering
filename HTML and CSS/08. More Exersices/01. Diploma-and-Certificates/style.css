@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+main{
+    background-color: #306086;
+    width: 90%;
+    display: inline-block;
+    padding: 40px 50px;
+    margin-left: 20px;
+}
+
+.container,
+.images {
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}
+
+.container{
+    color: #ffffff;
+    width: 58%;
+    vertical-align: top;
+    padding-left: 31px;
+}
+
+.container h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.container p:last-child {
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: #94B7D3;
+}
+
+.container::before{
+    content: "";
+    background: url(dots.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -86px;
+    margin-top: 200px;
+
+}
+
+.images{
+    width: 39%;
+}
+
+.images img{
+    width: 43%;
+    height: 30пь;
+    margin: 10px;
+    padding: 0;
+}
