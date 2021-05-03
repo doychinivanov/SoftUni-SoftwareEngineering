@@ -1,5 +1,9 @@
 # <p align="center"> SoftUni Courses </p>
 
+<a href="https://softuni.bg/trainings/courses" rel="Courses"> ![SoftUni logo][logo] </a>
+
+[logo]: https://nakov.com/wp-content/uploads/2012/03/Software-University-logo-horizontal.png;
+
 <h2> Certificates </h2>
 
 <table>
