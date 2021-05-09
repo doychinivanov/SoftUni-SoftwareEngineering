@@ -2,54 +2,39 @@ function solve(arr){
     let numbers = arr.shift().split(' ').map(Number);
     
     const actions = {
-        Shoot : ([index, power], arr) => {
+        Shoot : ([index, power]) => {
             [index, power] = convertToNum(index, power);
             
-            if(checkIndex(index, arr)){
-                arr[index] - power > 0 ? arr[index] -= power : arr.splice(index, 1);
+            if(checkIndex(index, numbers)){
+                numbers[index] - power > 0 ? numbers[index] -= power : numbers.splice(index, 1);
             }
-
-            return arr;
         },
 
-        Add : ([index, target], arr) => {
+        Add : ([index, target]) => {
             [index, target] = convertToNum(index, target);
 
-            if(checkIndex(index, arr)){
-                arr.splice(index, 0, target);
+            if(checkIndex(index, numbers)){
+                numbers.splice(index, 0, target);
             } else {
                 console.log('Invalid placement!');
             }
-
-            return arr;
         }, 
 
-        Strike : ([index, blast], arr) =>{
+        Strike : ([index, blast]) =>{
             [index, blast] = convertToNum(index, blast);
 
-            if(checkIndex(index, arr) && validBlast(index, blast, arr)){
-                arr.splice(index-blast, blast * 2 + 1);
+            if(checkIndex(index, numbers) && validBlast(index, blast, numbers)){
+                numbers.splice(index-blast, blast * 2 + 1);
             } else {
                 console.log('Strike missed!');
             }
-
-            return arr;
         }
     }
-
-    // arr.forEach(line => {
-    //     const [command, ...params] = line.split(' ');
-    //     if(command != 'End'){
-    //         numbers = actions[command](params, numbers);    
-    //     } else {
-    //         return;
-    //     }
-    // });
 
     for (let i = 0; i < arr.length; i++) {
         const [command, ...params] = arr[i].split(' ');
         if(command != 'End'){
-            numbers = actions[command](params, numbers);    
+            actions[command](params);    
         } else {
             break;
         }
