@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0074ec70-205f-4173-85dc-ac37b37d4751" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/01. First Steps In Coding - Lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/ConcatenateData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/GreetingByName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/InchToCm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/Nums1To10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/PetShop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/ProjectCreation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/SquareArea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/YardGreening.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/ConcatenateData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/GreetingByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/InchToCm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/Nums1To10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/PetShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/ProjectCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/SquareArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/YardGreening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programming Basics with Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/ConcatenateData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/GreetingByName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/InchToCm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/Nums1To10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/PetShop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/ProjectCreation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/SquareArea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/YardGreening.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/01. First Steps in Coding Exersice/01.3 PB-JS-First-Steps-in-Coding-Exercise.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/01. First Steps in Coding Exersice/01.3 PB-JS-First-Steps-in-Coding-Exercise.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/01. First Steps in Coding Exersice/birthday.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/01. First Steps in Coding Exersice/birthday.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/01. First Steps in Coding Exersice/calculateDeposit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/01. First Steps in Coding Exersice/calculateDeposit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/01. First Steps in Coding Exersice/degreesToRadians.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/01. First Steps in Coding Exersice/degreesToRadians.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/01. First Steps in Coding Exersice/fruitOrVeggie.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/01. First Steps in Coding Exersice/fruitOrVeggie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/01. First Steps in Coding Exersice/pesonalTitles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/01. First Steps in Coding Exersice/pesonalTitles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/01. First Steps in Coding Exersice/printNumbersFrom1To10.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/01. First Steps in Coding Exersice/printNumbersFrom1To10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/01. First Steps in Coding Exersice/smallShop.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/01. First Steps in Coding Exersice/smallShop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/01. First Steps in Coding Exersice/tankFuel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/01. First Steps in Coding Exersice/tankFuel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Exercise/02.3 PB-JS-Conditional-Statements-Exercise.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Exercise/02.3 PB-JS-Conditional-Statements-Exercise.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Exercise/bonusScore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Exercise/bonusScore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Exercise/godzillaVsKong.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Exercise/godzillaVsKong.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Exercise/metricConvertor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Exercise/metricConvertor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Exercise/scholarship.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Exercise/scholarship.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Exercise/speedInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Exercise/speedInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Exercise/swimmingWorldRecord.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Exercise/swimmingWorldRecord.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Exercise/time+15min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Exercise/time+15min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Lab/02.2 PB-JS-Conditional-Statements-Lab.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Lab/02.2 PB-JS-Conditional-Statements-Lab.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Lab/areaOfFigures.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Lab/areaOfFigures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Lab/evenOrodd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Lab/evenOrodd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Lab/from100to200.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Lab/from100to200.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Lab/printTheGreaterNum.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Lab/printTheGreaterNum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/02. Conditional Statements - Lab/toyStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/02. Conditional Statements - Lab/toyStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/excursion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/excursion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/fishingBoat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/fishingBoat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/fishingBoat2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/fishingBoat2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/hotelRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/hotelRoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/hotelRoom2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/hotelRoom2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/newHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/newHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/newHome2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/newHome2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/onTimeForAnExam.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/onTimeForAnExam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/operationWithNubers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/operationWithNubers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/summerOutfit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/summerOutfit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Exercise/volleybal.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Exercise/volleybal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Lab/fruitShop.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Lab/fruitShop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/03. Conditional Statements Advanced - Lab/skiTrip.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/03. Conditional Statements Advanced - Lab/skiTrip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop -  Lab/04.2 PB-JS-For-Loop-Lab.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop -  Lab/04.2 PB-JS-For-Loop-Lab.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop -  Lab/VowesSum.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop -  Lab/VowesSum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop -  Lab/characterSeq.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop -  Lab/characterSeq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop -  Lab/cleverLilly.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop -  Lab/cleverLilly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop -  Lab/evanPowersOf2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop -  Lab/evanPowersOf2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop -  Lab/numbersBy9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop -  Lab/numbersBy9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop -  Lab/numbersEndingIn7.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop -  Lab/numbersEndingIn7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop -  Lab/sumOfNumForC.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop -  Lab/sumOfNumForC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop - Exercise/04.3 PB-JS-For-Loop-Exercise.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop - Exercise/04.3 PB-JS-For-Loop-Exercise.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop - Exercise/countTheWords.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop - Exercise/countTheWords.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop - Exercise/divideWithoutRemainder.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop - Exercise/divideWithoutRemainder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop - Exercise/factoriel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop - Exercise/factoriel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop - Exercise/histograma.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop - Exercise/histograma.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop - Exercise/leapYear.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop - Exercise/leapYear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop - Exercise/minNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop - Exercise/minNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/04. For Loop - Exercise/multiplicationТable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/04. For Loop - Exercise/multiplicationТable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Exercise/05.3 PB-JS-While-Loop-Exercise.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Exercise/05.3 PB-JS-While-Loop-Exercise.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Exercise/cake.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Exercise/cake.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Exercise/cake2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Exercise/cake2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Exercise/coins.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Exercise/coins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Exercise/examPrep.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Exercise/examPrep.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Exercise/oldBooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Exercise/oldBooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Exercise/vacation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Exercise/vacation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Lab/05.2 PB-JS-While-Loop-Lab.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Lab/05.2 PB-JS-While-Loop-Lab.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Lab/2k+1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Lab/2k+1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Lab/accoungBalance.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Lab/accoungBalance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Lab/graduation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Lab/graduation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Lab/maxNumbr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Lab/maxNumbr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Lab/minNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Lab/minNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Lab/moving.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Lab/moving.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Lab/password.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Lab/password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Lab/readText.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Lab/readText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/05. While Loop - Lab/sumNumbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/05. While Loop - Lab/sumNumbers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Exercise/06.3 PB-JS-Nested-Loops-Exercise.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Exercise/06.3 PB-JS-Nested-Loops-Exercise.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Exercise/equalSumEvenOdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Exercise/equalSumEvenOdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Exercise/numberPyramid.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Exercise/numberPyramid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Exercise/specialNumbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Exercise/specialNumbers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Exercise/sumPrimeNum.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Exercise/sumPrimeNum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Exercise/trainTheTrainers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Exercise/trainTheTrainers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Lab/building.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Lab/building.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Lab/christmasTournament.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Lab/christmasTournament.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Lab/cinemaTickets.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Lab/cinemaTickets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Lab/clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Lab/clock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Lab/combinations.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Lab/combinations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Lab/multiplicationTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Lab/multiplicationTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Lab/sumOfTwoNumbers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Lab/sumOfTwoNumbers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/06. Nested Loops - Lab/traveling.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/06. Nested Loops - Lab/traveling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/careofPuppy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/careofPuppy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/catWalk.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/catWalk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/changeBerauo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/changeBerauo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/energyBooster.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/energyBooster.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/fintessCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/fintessCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/foodForPets.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/foodForPets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/foodForPets2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/foodForPets2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/mountainRun.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/mountainRun.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/suitcasesLoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/suitcasesLoad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/suppliesForSchool.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/suppliesForSchool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/tournamentChristmas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/tournamentChristmas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/07. Exam Preparation/trekkingMania.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/07. Exam Preparation/trekkingMania.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/bankBalance.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/bankBalance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/biggestNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/biggestNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/bookReading.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/bookReading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/charitycampaign.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/charitycampaign.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/cleverLilly.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/cleverLilly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/examPreparation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/examPreparation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/graduating.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/graduating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/histograma.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/histograma.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/invalidNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/invalidNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/movingOut.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/movingOut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/password.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/race.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/race.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/salary.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/salary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/salary2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/salary2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/theBiggestNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/theBiggestNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/theOldLibrary.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/theOldLibrary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/tradeComissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/tradeComissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/trip.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/trip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/08. More Exersices/vacation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/08. More Exersices/vacation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/EXAM/ANDprocessors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/EXAM/ANDprocessors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/EXAM/footbalSouvenirs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/EXAM/footbalSouvenirs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/EXAM/giftsFromSanta.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/EXAM/giftsFromSanta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/EXAM/goldMine.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/EXAM/goldMine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/EXAM/programmingBook.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/EXAM/programmingBook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS Programming Basics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming Basics with JS/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1sLaDPqYg2AANKFXNIMSWGhb18t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="InchToCm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.InchToCm" />
+      <module name="Programming Basics with Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InchToCm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0074ec70-205f-4173-85dc-ac37b37d4751" name="Default Changelist" comment="" />
+      <created>1620654211374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620654211374</updated>
+    </task>
+    <servers />
+  </component>
+</project>
