@@ -1,5 +1,3 @@
-package com.company;
-
 public class Nums1To10 {
 
     public static void main(String[] args) {
