@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0074ec70-205f-4173-85dc-ac37b37d4751" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/ConcatenateData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/GreetingByName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/InchToCm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/Nums1To10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/PetShop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/ProjectCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/SquareArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/out/production/01. First Steps In Coding - Lab/com/company/YardGreening.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/ConcatenateData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/GreetingByName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/InchToCm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/Nums1To10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/PetShop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/ProjectCreation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/SquareArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. First Steps In Coding - Lab/src/com/company/YardGreening.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/ConcatenateData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/GreetingByName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/InchToCm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/Nums1To10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/PetShop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/ProjectCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/SquareArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming Basics with Java/com/company/YardGreening.class" beforeDir="false" />
-    </list>
+    <list default="true" id="0074ec70-205f-4173-85dc-ac37b37d4751" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
