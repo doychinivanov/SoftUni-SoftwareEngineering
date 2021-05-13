@@ -13,17 +13,6 @@ public class OddEven {
         double evenMin = Integer.MAX_VALUE;
         double evenMax = Integer.MIN_VALUE;
 
-        if(n == 0){
-            oddMax = 0;
-            oddMin = 0;
-            evenMin = 0;
-            evenMax = 0;
-        }
-
-        if(n == 1){
-
-        }
-
         for (int i = 1; i <= n; i++){
             double currentNum = Double.parseDouble(scan.nextLine());
 
