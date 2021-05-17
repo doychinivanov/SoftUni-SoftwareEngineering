@@ -19,7 +19,7 @@ public class Building {
                     output += String.format("A%d%d ", i, j);
                 }
             }
-            
+
             topFloor--;
             System.out.println(output);
         }
