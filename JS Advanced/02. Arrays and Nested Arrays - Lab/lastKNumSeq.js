@@ -6,7 +6,8 @@ function fibonacciSeq(n, k){
 
         for (let i = 0; i < k; i++) {
             if(result.length < k){
-                newN = result.reduce((a,b) => a+b, 0)
+                newN = result.reduce((a,b) => a+b, 0);
+                break;
             } else {
                 newN += result[result.length-1-i];
             }   
