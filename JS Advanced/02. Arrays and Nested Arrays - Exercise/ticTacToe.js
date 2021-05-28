@@ -99,7 +99,6 @@ function playTicTac(arr){
         const leftDiagonal = [];
         const rigthDiagonal = [];
 
-        // Diagonal
         for (let i = 0; i < field.length; i++) {
             leftDiagonal.push(field[i][i]);
             rigthDiagonal.push(field[i][field.length - 1 -i]);
