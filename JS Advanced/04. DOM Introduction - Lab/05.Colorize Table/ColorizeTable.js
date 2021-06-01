@@ -1,3 +1,4 @@
 function colorize() {
-    // TODO
+    [...document.querySelectorAll('table tr:nth-child(even)')]
+    .forEach(row => row.style.background = 'teal');
 }
