@@ -52,10 +52,7 @@ public class ListOperationsV2 {
     }
 
     static boolean checkIndex(List<Integer>list, int index){
-        if(index >= 0 && index < list.size()){
-            return true;
-        }
-        return false;
+        return index >= 0 && index < list.size();
     }
 
     static String joinElements(List<Integer> items, String delimiter){
