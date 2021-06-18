@@ -1,4 +1,4 @@
-package article;
+package Article;
 
 public class Article {
     private String title;

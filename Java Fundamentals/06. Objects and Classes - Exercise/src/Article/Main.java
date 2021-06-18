@@ -1,4 +1,4 @@
-package article;
+package Article;
 
 import java.util.Scanner;
 
