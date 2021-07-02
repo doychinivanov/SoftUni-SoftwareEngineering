@@ -16,7 +16,7 @@ public class ReverseStringVar2 {
     }
 
     public static String reverseString(String str) {
-        if (str.isEmpty()){
+        if(str.isEmpty()){
             return str;
         }
 
