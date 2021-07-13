@@ -12,3 +12,13 @@ export async function createCatchRecord(data){
 
     return response;
 }
+
+export async function editCatchRecord(id, data){
+    const response = await api.put(dataUrl + `/${id}`, data);
+
+    return response;
+}
+
+export async function deleteCatchRecord(id){
+    return await api.del(dataUrl + `/${id}`);
+}

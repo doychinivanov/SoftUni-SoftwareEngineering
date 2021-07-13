@@ -1,5 +1,5 @@
 import { html, render } from 'https://unpkg.com/lit-html?module';
-import { getCatches, createCatchRecord } from '../api/catchesService.js';
+import { getCatches, createCatchRecord, deleteCatchRecord, editCatchRecord } from '../api/catchesService.js';
 
 let main;
 let section;
@@ -52,6 +52,45 @@ async function createCatch(ev){
     }
 }
 
+async function updateCatch(ev){
+    const currentCatchElement = ev.target.parentNode;
+    const id = ev.target.getAttribute('data-id');
+
+    const angler = currentCatchElement.querySelector('.angler').value.trim();
+    const weight = Number(currentCatchElement.querySelector('.weight').value.trim());
+    const species = currentCatchElement.querySelector('.species').value.trim();
+    const location = currentCatchElement.querySelector('.location').value.trim();
+    const bait = currentCatchElement.querySelector('.bait').value.trim();
+    const captureTime = Number(currentCatchElement.querySelector('.captureTime').value.trim());
+
+    if(angler == '' || weight == '' || species == '' || location == '' || bait == '' || captureTime == ''){
+        alert('All fields are required!');
+        return;
+    }
+
+    try{
+        await editCatchRecord(id, {angler, weight, species, location, bait, captureTime});
+        await loadCatches();
+    } catch(err){
+        alert(err.message);
+        return;
+    }
+}
+
+async function deleteCatch(ev){
+    const id = ev.target.getAttribute('data-id');
+
+    if(confirm('Are you sure you want to delete this record?')){
+        try{
+            await deleteCatchRecord(id);
+            await loadCatches();
+        } catch(err){
+            alert(err.message);
+            return;
+        }
+    }
+}
+
 async function loadCatches() {
     const data = await getCatches();
     const holder = document.getElementById('main');
@@ -82,8 +121,8 @@ const catchTemplate = (currentCatch) => html`
     <label>Capture Time</label>
     <input type="number" class="captureTime" value="${currentCatch.captureTime}">
     ${sessionStorage.getItem('userId') == currentCatch._ownerId ? 
-    html `<button class="update" data-id="${currentCatch._id}">Update</button>
-    <button class="delete" data-id="${currentCatch._id}">Delete</button>` 
+    html `<button @click="${updateCatch}" class="update" data-id="${currentCatch._id}">Update</button>
+    <button @click="${deleteCatch}" class="delete" data-id="${currentCatch._id}">Delete</button>` 
     : 
     html` <button disabled class="update" data-id="${currentCatch._id}">Update</button>
     <button disabled class="delete" data-id="${currentCatch._id}">Delete</button>`}
