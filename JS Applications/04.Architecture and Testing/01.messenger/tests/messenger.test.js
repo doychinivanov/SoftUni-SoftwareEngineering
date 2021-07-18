@@ -5,7 +5,7 @@ let browser
 let page;
 
 describe('End to end tests for messanger app', function () {
-    this.timeout(20000);
+    this.timeout(10000);
 
     before(async () => { browser = await chromium.launch(); });
 
