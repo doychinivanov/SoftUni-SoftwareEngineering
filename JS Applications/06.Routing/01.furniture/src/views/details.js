@@ -13,7 +13,7 @@ const detailTemplate = (currentFurniture) => html`
         <div class="col-md-4">
             <div class="card text-white bg-primary">
                 <div class="card-body">
-                    <img src="${currentFurniture.img.substring(1)}" />
+                    <img src="${currentFurniture.img[0] == '.' ? currentFurniture.img.substring(1) : currentFurniture.img}" />
                 </div>
             </div>
         </div>
