@@ -211,3 +211,8 @@ img {
 .is-invalid {
     border-left: 2px solid red;
 }
+
+.error-msg{
+    color: rgba(199, 49, 49, 0.685);
+    margin-left: 5px;
+}

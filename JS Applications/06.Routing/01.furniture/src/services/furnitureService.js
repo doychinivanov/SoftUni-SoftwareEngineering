@@ -19,8 +19,8 @@ export async function getFurnitureByUserId(userId){
     return data;
 }
 
-export async function createFurniture(){
-    const data = await api.post(furnitureUrl);
+export async function createFurniture(body){
+    const data = await api.post(furnitureUrl, body);
 
     return data;
 }
