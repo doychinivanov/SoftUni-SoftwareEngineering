@@ -12,3 +12,15 @@ export async function getFurnitureById(id){
 
     return data;
 }
+
+export async function getFurnitureByUserId(userId){
+    const data = await api.get(furnitureUrl + `?where=_ownerId%3D%22${userId}%22`)
+
+    return data;
+}
+
+export async function createFurniture(){
+    const data = await api.post(furnitureUrl);
+
+    return data;
+}

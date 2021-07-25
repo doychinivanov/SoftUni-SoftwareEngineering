@@ -1,5 +1,5 @@
 import { html } from '../config/libraries.js';
-import { registerUser } from '../util/auth/registerUser.js';
+import {registerUser} from '../controllers/authController.js';
 
 const registerTemplate = (ctx) => html`
 <div class="container">

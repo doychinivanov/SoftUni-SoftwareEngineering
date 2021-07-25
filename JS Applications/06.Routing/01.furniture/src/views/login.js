@@ -1,5 +1,5 @@
 import { html } from '../config/libraries.js';
-import { loginUser } from '../util/auth/loginUser.js';
+import { loginUser } from '../controllers/authController.js';
 
 const loginTemplate = (ctx) => html`
     <div class="container">

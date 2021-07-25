@@ -1,4 +1,29 @@
-import {register} from '../../services/userService.js';
+import {login, register} from '../services/userService.js';
+
+export const loginUser = async (ev, ctx) =>{
+    ev.preventDefault();
+    const form = ev.target;
+
+    const formData = new FormData(form);
+
+    const email = formData.get('email');
+    const password = formData.get('password');
+
+    if(email == '' || password == ''){
+        alert('All fields are required!');
+        return;
+    }
+
+    try{
+        await login({email, password});
+    } catch(err){
+        alert(err.message);
+        return;
+    }
+
+    ctx.setUserNav();
+    ctx.page.redirect('/');
+};
 
 export const registerUser = async (ev, ctx) => {
     ev.preventDefault();
@@ -35,4 +60,4 @@ export const registerUser = async (ev, ctx) => {
 
     ctx.setUserNav();
     ctx.page.redirect('/');
-}
+};

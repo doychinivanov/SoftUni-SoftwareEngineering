@@ -1,6 +1,7 @@
 import { html } from '../config/libraries.js';
+import { createNewRecord } from '../controllers/furnitureController.js';
 
-const createTemplate = () => html`
+const createTemplate = (ctx) => html`
 <div class="container">
     <div class="row space-top">
         <div class="col-md-12">
@@ -8,7 +9,7 @@ const createTemplate = () => html`
             <p>Please fill all fields.</p>
         </div>
     </div>
-    <form>
+    <form @submit=${(ev) => createNewRecord(ev, ctx)}>
         <div class="row space-top">
             <div class="col-md-4">
                 <div class="form-group">
@@ -17,11 +18,11 @@ const createTemplate = () => html`
                 </div>
                 <div class="form-group has-success">
                     <label class="form-control-label" for="new-model">Model</label>
-                    <input class="form-control is-valid" id="new-model" type="text" name="model">
+                    <input class="form-control" id="new-model" type="text" name="model">
                 </div>
                 <div class="form-group has-danger">
                     <label class="form-control-label" for="new-year">Year</label>
-                    <input class="form-control is-invalid" id="new-year" type="number" name="year">
+                    <input class="form-control" id="new-year" type="number" name="year">
                 </div>
                 <div class="form-group">
                     <label class="form-control-label" for="new-description">Description</label>
@@ -49,5 +50,6 @@ const createTemplate = () => html`
 `;
 
 export const showCreate = (ctx) =>{
-    ctx.render(createTemplate());
+    ctx.render(createTemplate(ctx));
+    ctx.setUserNav();
 }
