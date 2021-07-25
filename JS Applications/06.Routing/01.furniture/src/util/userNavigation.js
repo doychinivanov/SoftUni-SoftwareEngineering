@@ -10,3 +10,13 @@ export function setUserNav(){
         guestNavigation.style.display = 'inline-block';
     }
 }
+
+export function unactivateButtons(){
+    const navLinks = [...document.querySelectorAll('nav a')];
+
+    navLinks.forEach(a => a.classList.remove('active'));
+};
+
+export function activeCurrentButton(button){
+    button.classList.add('active');
+}

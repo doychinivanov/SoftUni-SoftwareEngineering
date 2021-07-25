@@ -7,6 +7,11 @@ const myFurnitureTemplate = (userFurniture) => html`
         <div class="col-md-12">
             <h1>My Furniture</h1>
             <p>This is a list of your publications.</p>
+
+            ${userFurniture.length == 0 ? html`<div>
+             <h1>You have no items yet.</h1>
+             <h3>Create your own now <a href="/create">Do it</a></h3>
+         </div>` : ''}
         </div>
     </div>
     <div class="row space-top">
@@ -41,5 +46,6 @@ export const showMyFurniture = async (ctx) =>{
 
         ctx.render(myFurnitureTemplate(userFurniture));
         ctx.setUserNav();
+        ctx.activateBtn([...document.querySelectorAll('nav a')].find(a => a.pathname == ctx.pathname));
     }
 }

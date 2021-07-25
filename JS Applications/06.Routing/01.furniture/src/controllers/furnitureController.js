@@ -1,25 +1,45 @@
-import {createFurniture} from '../services/furnitureService.js';
+import {createFurniture, editFurniture, deleteFurniture} from '../services/furnitureService.js';
 
-export async function createNewRecord(ev, ctx){
+export async function deleteRecord(ctx){
+    const confirmed = confirm('Are you sure you want to delete this furniture?');
+
+    if(confirmed){
+        try{
+            await deleteFurniture(ctx.params.id);
+            ctx.page.redirect('/');
+        } catch (err){
+            alert(err.message);
+            return;
+        }
+    }
+}
+
+export async function setUpNewRecord(ev, ctx, id){
     ev.preventDefault();
 
     const form = ev.target;
     const formData = new FormData(form);
 
-    const make = formData.get('make');
-    const model = formData.get('model');
+    const make = formData.get('make').trim();
+    const model = formData.get('model').trim();
     const year = Number(formData.get('year'));
-    const description = formData.get('description');
+    const description = formData.get('description').trim();
     const price = Number(formData.get('price'));
-    const img = formData.get('img');
-    const material = formData.get('material');
+    const img = formData.get('img').trim();
+    const material = formData.get('material').trim();
 
 
     if(validateForm({make, model, year, description, price, img, material}, form)){
-        console.log('valid')
         try{
-            const result = await createFurniture({make, model, year, description, price, img, material});
-            ctx.page.redirect('/');
+
+            if(form.id == 'edit-form'){
+                await editFurniture(id, {make, model, year, description, price, img, material});
+                ctx.page.redirect('/details' + `/${id}`);
+            } else {
+                await createFurniture({make, model, year, description, price, img, material});
+                ctx.page.redirect('/');
+            }
+
             form.reset();
         } catch(err){
             alert(err.message);
@@ -158,4 +178,3 @@ export async function createNewRecord(ev, ctx){
         }
     }
 }
-

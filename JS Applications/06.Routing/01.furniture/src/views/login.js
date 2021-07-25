@@ -29,4 +29,6 @@ const loginTemplate = (ctx) => html`
 
 export const showLogin = (ctx) => {
     ctx.render(loginTemplate(ctx));
+    ctx.setUserNav();
+    ctx.activateBtn([...document.querySelectorAll('nav a')].find(a => a.pathname == ctx.pathname));
 }

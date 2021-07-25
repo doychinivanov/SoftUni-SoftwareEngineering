@@ -24,3 +24,15 @@ export async function createFurniture(body){
 
     return data;
 }
+
+export async function editFurniture(id, body){
+    const data = await api.put(furnitureUrl + `/${id}`, body);
+
+    return data;
+}
+
+export async function deleteFurniture(id){
+    const data = await api.del(furnitureUrl  + `/${id}`);
+
+    return data;
+}
