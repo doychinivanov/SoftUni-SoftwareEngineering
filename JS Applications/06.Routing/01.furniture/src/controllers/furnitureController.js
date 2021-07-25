@@ -51,6 +51,8 @@ export async function setUpNewRecord(ev, ctx, id){
 
     function validateForm(data, form){
         let validForm = true;
+
+        // Ugly validations
     
         if(data.make.length < 4){
             validForm = false;
