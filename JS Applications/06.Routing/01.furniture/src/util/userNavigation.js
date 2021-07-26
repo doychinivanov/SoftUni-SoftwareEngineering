@@ -18,5 +18,6 @@ export function unactivateButtons(){
 };
 
 export function activeCurrentButton(button){
+    if(!button) return;
     button.classList.add('active');
 }

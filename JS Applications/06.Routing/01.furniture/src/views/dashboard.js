@@ -38,6 +38,4 @@ export const showDashboard = async (ctx) => {
     const allFurniture = await getAllFurniture();
     ctx.render(dashboardTemplate(allFurniture));
     ctx.setUserNav();
-    ctx.activateBtn([...document.querySelectorAll('nav a')].find(a => a.pathname == ctx.pathname));
-
 }

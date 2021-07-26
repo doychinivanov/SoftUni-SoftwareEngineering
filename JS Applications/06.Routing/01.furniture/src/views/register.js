@@ -34,5 +34,4 @@ const registerTemplate = (ctx) => html`
 export const showRegister = (ctx) => {
     ctx.render(registerTemplate(ctx));
     ctx.setUserNav();
-    ctx.activateBtn([...document.querySelectorAll('nav a')].find(a => a.pathname == ctx.pathname));
 }

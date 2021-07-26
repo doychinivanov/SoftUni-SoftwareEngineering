@@ -46,6 +46,5 @@ export const showMyFurniture = async (ctx) =>{
 
         ctx.render(myFurnitureTemplate(userFurniture));
         ctx.setUserNav();
-        ctx.activateBtn([...document.querySelectorAll('nav a')].find(a => a.pathname == ctx.pathname));
     }
 }

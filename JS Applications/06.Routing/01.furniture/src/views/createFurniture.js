@@ -52,5 +52,5 @@ const createTemplate = (ctx) => html`
 export const showCreate = (ctx) =>{
     ctx.render(createTemplate(ctx));
     ctx.setUserNav();
-    ctx.activateBtn([...document.querySelectorAll('nav a')].find(a => a.pathname == ctx.pathname));
+    // ctx.activateBtn([...document.querySelectorAll('nav a')].find(a => a.pathname == ctx.pathname));
 }
