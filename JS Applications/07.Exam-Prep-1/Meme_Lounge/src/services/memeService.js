@@ -7,6 +7,13 @@ async function getAllMemesSorted(){
     return memes;
 }
 
+async function getMemesByUserId(userId){
+    const memes = await api.get(memeUrl + `?where=_ownerId%3D%22${userId}%22&sortBy=_createdOn%20desc`);
+
+    return memes;
+
+}
+
 async function getOneMeme(id){
     const meme = await api.get(memeUrl + `/${id}`);
 
@@ -31,4 +38,4 @@ async function deleteMeme(id){
     return meme;
 }
 
-export {getAllMemesSorted, getOneMeme, createMeme, editMeme, deleteMeme}
+export {getAllMemesSorted, getOneMeme, createMeme, editMeme, deleteMeme, getMemesByUserId}

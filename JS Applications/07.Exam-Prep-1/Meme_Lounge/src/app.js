@@ -16,7 +16,6 @@ import { showProfile } from './views/profile.js';
 
 startApplication();
 
-
 function startApplication(){
     page('/', decorateCtx, showHome);
     page('/login', decorateCtx, authMiddleware, showLogin);
@@ -26,7 +25,7 @@ function startApplication(){
 
     page('/edit/:id', decorateCtx, storageMiddleware, showEdit);
     page('/details/:id', decorateCtx, storageMiddleware, showDetails);
-    page('/profile/:id', decorateCtx, showProfile);
+    page('/profile', decorateCtx, storageMiddleware, showProfile);
 
     page.start();
 }

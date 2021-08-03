@@ -7,6 +7,8 @@ export async function login({email, password}){
     sessionStorage.setItem('email', result.email);
     sessionStorage.setItem('userToken', result.accessToken);
     sessionStorage.setItem('userId', result._id);
+    sessionStorage.setItem('gender', result.gender);
+    sessionStorage.setItem('username', result.username);
 
     return result;
 }

@@ -22,7 +22,6 @@ const editTemaplte = (ctx, meme) => html`
 
 export const showEdit = async (ctx) =>{
     const meme = await ctx.storage.getOneMeme(ctx.params.id);
-    console.log(meme);
     ctx.render(editTemaplte(ctx, meme));
     ctx.setUserNav();
 }
