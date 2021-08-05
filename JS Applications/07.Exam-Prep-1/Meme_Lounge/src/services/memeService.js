@@ -11,7 +11,6 @@ async function getMemesByUserId(userId){
     const memes = await api.get(memeUrl + `?where=_ownerId%3D%22${userId}%22&sortBy=_createdOn%20desc`);
 
     return memes;
-
 }
 
 async function getOneMeme(id){
