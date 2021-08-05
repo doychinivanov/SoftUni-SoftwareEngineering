@@ -1,9 +1,10 @@
 import { html } from '../config/libraries.js';
+import { createNewCar } from '../controllers/carController.js';
 
-const createTemplate = () => html`
+const createTemplate = (ctx) => html`
     <section id="create-listing">
         <div class="container">
-            <form id="create-form">
+            <form @submit=${(ev) => createNewCar(ev, ctx)} id="create-form">
                 <h1>Create Car Listing</h1>
                 <p>Please fill in this form to create an listing.</p>
                 <hr>
@@ -34,6 +35,6 @@ const createTemplate = () => html`
 `;
 
 export const showCreate = (ctx) => {
-    ctx.render(createTemplate());
+    ctx.render(createTemplate(ctx));
     ctx.setUserNav();
 }

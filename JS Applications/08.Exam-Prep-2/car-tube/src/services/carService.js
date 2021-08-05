@@ -19,4 +19,28 @@ async function getCarsByUserId(userId){
     return cars;
 }
 
-export {getAllCarsSorted, getCarById, getCarsByUserId}
+async function createCar(body){
+    const car = await api.post(carUrl, body);
+
+    return car;
+}
+
+async function editCar(id, body){
+    const editedCar = await api.put(carUrl + `/${id}`, body);
+
+    return editedCar;
+}
+
+async function deleteCar(id){
+    const car = await api.del(carUrl + `/${id}`);
+
+    return car;
+}
+
+async function searchCarByYear(year){
+    const car = await api.get(carUrl + `?where=year%3D${year}`);
+
+    return car;
+}
+
+export {getAllCarsSorted, getCarById, getCarsByUserId, createCar, editCar, deleteCar, searchCarByYear}

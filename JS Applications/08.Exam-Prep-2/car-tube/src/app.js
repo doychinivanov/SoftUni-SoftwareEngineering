@@ -21,12 +21,12 @@ function startApplication(){
     page('/login', decorateCtx, authMiddleware, showLogin);
     page('/register', decorateCtx, authMiddleware, showRegister);
     page('/browse', decorateCtx, storageMiddleware, showAll);
-    page('/create', decorateCtx, showCreate);
+    page('/create', decorateCtx, storageMiddleware, showCreate);
 
-    page('/edit/:id', decorateCtx, showEdit);
+    page('/edit/:id', decorateCtx, storageMiddleware, showEdit);
     page('/details/:id', decorateCtx, storageMiddleware, showDetails);
     page('/myList', decorateCtx, storageMiddleware, showMyList);
-    page('/search', decorateCtx, showSearch);
+    page('/search', decorateCtx, storageMiddleware, showSearch);
 
     page.start();
 }

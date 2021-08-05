@@ -1,6 +1,7 @@
-import { html } from '../config/libraries.js'
+import { html } from '../config/libraries.js';
+import { deleteCarRecord } from '../controllers/carController.js';
 
-const detailtTemplate = (car) => html`
+const detailtTemplate = (ctx, car) => html`
     <section id="listing-details">
         <h1>Details</h1>
         <div class="details-info">
@@ -17,7 +18,7 @@ const detailtTemplate = (car) => html`
     
             ${car._ownerId == sessionStorage.getItem('userId') ? html`<div class="listings-buttons">
                 <a href="/edit/${car._id}" class="button-list">Edit</a>
-                <a href="javascript:void(0)" class="button-list">Delete</a>
+                <a @click=${(ev) => deleteCarRecord(ev, ctx, car._id)} href="javascript:void(0)" class="button-list">Delete</a>
             </div>` : ''}
         </div>
     </section>
@@ -26,6 +27,6 @@ const detailtTemplate = (car) => html`
 export const showDetails = async (ctx) => {
     const currentCar = await ctx.storage.getCarById(ctx.params.id);
 
-    ctx.render(detailtTemplate(currentCar));
+    ctx.render(detailtTemplate(ctx, currentCar));
     ctx.setUserNav();
 }
