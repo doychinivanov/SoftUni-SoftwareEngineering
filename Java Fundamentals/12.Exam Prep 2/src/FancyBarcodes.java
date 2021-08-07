@@ -41,7 +41,7 @@ public class FancyBarcodes {
             result.append(match.group());
         }
 
-        if (result.isEmpty()){
+        if (result.length() == 0){
             result.append("00");
         }
         return result.toString();
