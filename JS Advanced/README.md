@@ -1,4 +1,4 @@
-# **<p align="center"><a href = "https://softuni.bg/trainings/3211/js-fundamentals-january-2021" target="_blank">Programming Fundamentals with JavaScript - January 2021</a></p>**
+# **<p align="center"><a href = "https://softuni.bg/trainings/3347/js-advanced-may-2021" target="_blank">JS Advanced - May 2021</a></p>**
 
 ### The **Programming Fundamentals** course is the beginning of the inside program of **SoftUni**. It presents the fundamental concepts required for an efficient and qualified education in all professional modules at SoftUni. The course extends the previously gained basic coding skills from the **“Programming Basics”** course and adds additional knowledge and practical programming skills. 
 
