@@ -6,7 +6,7 @@
 *  Arrays and Nested Arrays
 *   Object and Composition - *object composition, object and properties, JSON, modular code*
 *  DOM Introduction - *Browser API, Document Object Model, HTML Elements, Targeting elements, using the DOM API*
-*  DOM Manipulations and events - *Creating and Manipulating Elements, Handling Events, Event Types, Event Object Properties and Methods*
+*  DOM Manipulations and Events - *Creating and Manipulating Elements, Handling Events, Event Types, Event Object Properties and Methods*
 *  Advanced Functions - *Closures, Currying and Partial Applications, Function composition, Execution Context*
 *  Unit Testing and Error Handling - *Exception Handling, Modules, Unit Testing Concepts, Mocha and Chai*
 * Classes - *Defininf Classes, Properties and Accessors, Component Approach, Testing Classes*
