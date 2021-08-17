@@ -1,6 +1,6 @@
 # **<p align="center"><a href = "https://softuni.bg/trainings/3347/js-advanced-may-2021" target="_blank">JS Advanced - May 2021</a></p>**
 
-### The **Programming Fundamentals** course is the beginning of the inside program of **SoftUni**. It presents the fundamental concepts required for an efficient and qualified education in all professional modules at SoftUni. The course extends the previously gained basic coding skills from the **“Programming Basics”** course and adds additional knowledge and practical programming skills. 
+### The **JS Advanced** course takes a deeper look into the JavaScript world. The course develops furthermore all previously gained knowledge in JavaScript syntax - dealing with arrays and multidimensional arrays, objects, classes, and functional programming. Concepts like *function context*, *explicit binding*, *event loop* are studied in detail. Whatsoever, the core of the course is operating with DOM, DOM manipulations, functional programming, as well as OOP with JavaScript - inheritance, object composition, and the prototype chain. How to write unit testing with *Mocha* and *Chai* is also covered.
 
 ## Main Lectures: 
 *  Working with array methods, sorting arrays and array functionality
@@ -17,4 +17,4 @@
 * Database Basics (*SQL and NoSQL databases, DBMS systems*)
 * QA Introduction
 
-### The course is considered successfully finished after passing both mid and final exam. More details shall be found <a href = "https://softuni.bg/trainings/courses" target="_blank">*here*</a>.
+### The course is considered successfully finished after passing the final exam. More details shall be found <a href = "https://softuni.bg/trainings/courses" target="_blank">*here*</a>.
