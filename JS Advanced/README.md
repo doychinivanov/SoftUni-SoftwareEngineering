@@ -7,9 +7,9 @@
 *   Object and Composition - *object composition, object and properties, JSON, modular code*
 *  DOM Introduction - *Browser API, Document Object Model, HTML Elements, Targeting elements, using the DOM API*
 *  DOM Manipulations and EVENT - *Creating and Manipulating Elements, Handling Events, Event Types, Event Object Properties and Methods*
-*  Associative Arrays (*definition, attributes, iteration*), Map and Set
-*  Text processing (*manipulating strings with string methods*)
-* Regular Expressions - Definition and pattern, predefined character classes. RegExp methods (*exec, match, test*), quantifiers and grouping, ackreferences
+*  Advanced Functions - *Closures, Currying and Partial Applications, Function composition, Execution Context*
+*  Unit Testing and Error Handling - *Exception Handling, Modules, Unit Testing Concepts, Mocha and Chai*
+* Classes - *Defininf Classes, Properties and Accessors, Component Approach, Testing Classes*
+* Prototypes and Inheritance - *Inheritance, Classical Inheritance, Prototype Chain*
 
-
-### The course is considered successfully finished after passing the final exam. More details shall be found <a href = "https://softuni.bg/trainings/courses" target="_blank">*here*</a>.
+### The course is considered successfully finished after passing a final exam. More details shall be found <a href = "https://softuni.bg/trainings/courses" target="_blank">*here*</a>.
