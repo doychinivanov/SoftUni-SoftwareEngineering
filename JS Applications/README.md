@@ -1,6 +1,6 @@
 # **<p align="center"><a href = "https://softuni.bg/trainings/3348/js-applications-june-2021" target="_blank">JS Applications - June 2021</a></p>**
 
-### The **Programming Fundamentals** course is the beginning of the inside program of **SoftUni**. It presents the fundamental concepts required for an efficient and qualified education in all professional modules at SoftUni. The course extends the previously gained basic coding skills from the **“Programming Basics”** course and adds additional knowledge and practical programming skills. 
+### **JS Applications** studies what are HTTP requests and how to use them, what are REST Services, what is BaaS *backend as a service* and how to use it, what is asynchronous code *(Promises, async/await, fetch)*, as well as **Templating** and **Routing**. The course is focused on building SPA applications *(Single Page Applications)* while learning how to develop and structure the architecture of any application. In the end, the course takes a look at *Web Components* and *Webpack*.
 
 ## Main Lectures: 
 *  Working with array methods, sorting arrays and array functionality
