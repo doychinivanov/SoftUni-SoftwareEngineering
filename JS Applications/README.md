@@ -9,7 +9,7 @@
 *  Single Page Applications - *SPA Concepts, Multi-Screen Applications, Changing Content Dynamically*
 *  Architecture and Testing - *Modular Applications, Packages, Dependencies, Integration Testing, End to end testing with Playwright*
 *  Client Side Rendering - *Templating Concepts, Simple Templating, Templating Engines, lit-html*
-* Routing - *Routing Concepts, Navigation and History, paje.js*
+* Routing - *Routing Concepts, Navigation and History, page.js*
 * Modular Applications - *Component Approach, Encapsulating, Isolating State*
 * Webpack
 
