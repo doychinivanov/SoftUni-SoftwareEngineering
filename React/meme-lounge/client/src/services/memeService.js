@@ -19,14 +19,14 @@ async function getOneMeme(id, token){
     return meme;
 }
 
-async function createMeme(body){
-    const meme = await api.post(memeUrl, body);
+async function createMeme(body, token){
+    const meme = await api.post(memeUrl, token, body);
 
     return meme;
 }
 
-async function editMeme(id, body){
-    const editedMeme = await api.put(memeUrl + `/${id}`, body);
+async function editMeme(id, body, token){
+    const editedMeme = await api.put(memeUrl + `/${id}`, token, body);
 
     return editedMeme;
 }

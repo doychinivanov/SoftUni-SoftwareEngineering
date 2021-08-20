@@ -6,7 +6,6 @@ const UserNavigation = ({addNewUser, user}) => {
     const logoutUser = async(ev) => {
         ev.preventDefault(); 
         try{
-            console.log(user.accessToken)
             await logout(user.accessToken);
             addNewUser({});
         } catch(err){
@@ -20,7 +19,7 @@ const UserNavigation = ({addNewUser, user}) => {
         <div className="user">
             <NavLink to="/create">Create Meme</NavLink>
             <div className="profile">
-                <span>Welcome, email</span>
+                <span>Welcome, {user.username}</span>
                 <NavLink to="/profile">My Profile</NavLink>
                 <NavLink onClick={logoutUser} to="/logout">Logout</NavLink>
             </div>

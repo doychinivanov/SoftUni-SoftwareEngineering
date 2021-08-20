@@ -20,7 +20,7 @@ const Options = ({onDeleteMeme, token, memeId}) => {
 
     return (
         <>
-            <Link className="button warning" to="/edit/id">Edit</Link>
+            <Link className="button warning" to={`/edit/${memeId}`}>Edit</Link>
             <button onClick={deleteCurrentMeme} className="button danger">Delete</button>
         </>
     );

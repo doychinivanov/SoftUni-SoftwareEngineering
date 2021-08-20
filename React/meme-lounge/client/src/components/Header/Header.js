@@ -8,7 +8,6 @@ const Header = () => {
 
     const currentUser = useUser();
     const addNewUser = useUpdateUser();
-    console.log(currentUser);
 
     return(
         <nav>
