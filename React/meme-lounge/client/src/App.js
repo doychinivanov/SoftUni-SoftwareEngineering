@@ -2,6 +2,9 @@ import { Route, Switch } from 'react-router';
 
 import { UserProvider } from './context/UserContext';
 
+import IsGuest from './guards/IsGuest';
+import isAuth from './guards/isAuth';
+
 import Create from './components/Create/index';
 import Edit from './components/Edit/index';
 import Header from './components/Header/index';
@@ -21,14 +24,14 @@ function App() {
         <Header></Header>
 
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/login" component={Login} />
-          <Route path="/register" component={Register} />
-          <Route path="/create" component={Create} />
-          <Route path="/edit/:memeId" component={Edit} />
-          <Route path="/details/:memeId" component={Details} />
-          <Route path="/profile" component={Profile} />
-          <Route path="/all" component={Feed} />
+          <Route path="/" exact component={IsGuest(Home)} />
+          <Route path="/login" component={IsGuest(Login)} />
+          <Route path="/register" component={IsGuest(Register)} />
+          <Route path="/create" component={isAuth(Create)} />
+          <Route path="/edit/:memeId" component={isAuth(Edit)} />
+          <Route path="/details/:memeId" component={isAuth(Details)} />
+          <Route path="/profile" component={isAuth(Profile)} />
+          <Route path="/all" component={isAuth(Feed)} />
 
         </Switch>
       </UserProvider>
