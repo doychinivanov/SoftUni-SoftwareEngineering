@@ -25,7 +25,7 @@ const Register = () => {
 
         try{
             const userObject = await register({email:email.value, token:null, password:password.value, gender:gender.value});
-            addNewUser({accessToken: userObject.accessToken, email: userObject.email, gender:userObject.gender, username:userObject.username});
+            addNewUser({_id: userObject._id,accessToken: userObject.accessToken, email: userObject.email, gender:userObject.gender, username:userObject.username});
             history.push('/all');
         } catch(err){
             alert(err.message);

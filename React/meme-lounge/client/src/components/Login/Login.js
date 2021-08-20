@@ -16,7 +16,7 @@ const Login = () => {
             alert('No-no-no');
         } else {
             const userObject = await login({email:email.value, token:null, password:password.value});
-            addNewUser({accessToken: userObject.accessToken, email: userObject.email, gender:userObject.gender, username:userObject.username});
+            addNewUser({_id: userObject._id, accessToken: userObject.accessToken, email: userObject.email, gender:userObject.gender, username:userObject.username});
             history.push('/all');
         }
     }

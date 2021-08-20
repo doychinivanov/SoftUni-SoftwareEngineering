@@ -1,8 +1,8 @@
 import * as api from '../api/api.js';
 import { memeUrl } from "../config/endPoints.js";
 
-async function getAllMemesSorted(){
-    const memes = await api.get(memeUrl + '?sortBy=_createdOn%20desc');
+async function getAllMemesSorted(token){
+    const memes = await api.get(memeUrl + '?sortBy=_createdOn%20desc', token);
 
     return memes;
 }
@@ -13,8 +13,8 @@ async function getMemesByUserId(userId){
     return memes;
 }
 
-async function getOneMeme(id){
-    const meme = await api.get(memeUrl + `/${id}`);
+async function getOneMeme(id, token){
+    const meme = await api.get(memeUrl + `/${id}`, token);
 
     return meme;
 }

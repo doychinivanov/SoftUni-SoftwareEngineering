@@ -1,25 +1,35 @@
-import { Link } from "react-router-dom";
+import Options from './Options';
+import { useUser } from '../../context/UserContext';
+import { useEffect, useState } from 'react';
+import { getOneMeme } from "../../services/memeService";
 
-const Details = () => {
+const Details = ({match}) => {
+    const memeId = match.params.memeId; 
+
+    const [currentMeme, setCurrentMeme] = useState([]);
+
+    const currentUser = useUser();
+    const token = currentUser.accessToken || null;
+
+    useEffect(()=>{
+        getOneMeme(memeId, token)
+        .then(meme => setCurrentMeme(meme))
+    },[memeId, token]);
+
     return (
         <section id="meme-details">
-        <h1>Meme Title: Bad code can present some problems
-
-        </h1>
+        <h1>Meme Title: {currentMeme.title}</h1>
         <div className="meme-details">
             <div className="meme-img">
-                <img alt="meme-alt" src="/images/3.png" />
+                <img alt="meme-alt" src={currentMeme.imageUrl} />
             </div>
             <div className="meme-description">
                 <h2>Meme Description</h2>
                 <p>
-                    Being a programmer is a fun job. And many funny incidents occur throughout a
-                    programmer’s career.
-                    Here are a few jokes that can be relatable to you as a programmer.
+                    {currentMeme.description}
                 </p>
 
-                <Link className="button warning" to="/edit/id">Edit</Link>
-                <button className="button danger">Delete</button>
+                {currentMeme._ownerId === currentUser._id ? <Options/> : ''}
                 
             </div>
         </div>

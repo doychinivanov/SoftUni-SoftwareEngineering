@@ -29,7 +29,7 @@ function App() {
           <Route path="/register" component={IsGuest(Register)} />
           <Route path="/create" component={isAuth(Create)} />
           <Route path="/edit/:memeId" component={isAuth(Edit)} />
-          <Route path="/details/:memeId" component={isAuth(Details)} />
+          <Route path="/details/:memeId" component={Details} />
           <Route path="/profile" component={isAuth(Profile)} />
           <Route path="/all" component={Feed} />
 
