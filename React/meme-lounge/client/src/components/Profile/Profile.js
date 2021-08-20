@@ -1,30 +1,32 @@
-import { Link } from "react-router-dom";
+import { useUser } from '../../context/UserContext';
+import { useEffect, useState } from 'react';
+import { getMemesByUserId } from "../../services/memeService";
+
+import UserCard from './UserCard';
+import MemeCard from "../MemeCard";
 
 const Profile = () => {
+
+    const [memes, setMemes] = useState([]);
+
+    const currentUser = useUser();
+    const token = currentUser.accessToken || null;
+    const userId = currentUser._id || null;
+
+    useEffect(()=>{
+        getMemesByUserId(userId, token)
+        .then(memes => setMemes(memes))
+    },[userId,token]);
+
     return(
         <section id="user-profile-page" className="user-profile">
-        <article className="user-info">
-            <img id="user-avatar-url" alt="user-profile" src="/images/female.png" />
-            <div className="user-content">
-                <p>Username: Mary</p>
-                <p>Email: mary@abv.bg</p>
-                <p>My memes count: 2</p>
-            </div>
-        </article>
+
+        <UserCard user={currentUser} memesCount={memes.length}/>
+
         <h1 id="user-listings-title">User Memes</h1>
         <div className="user-meme-listings">
-            <div className="user-meme">
-                <p className="user-meme-title">Java Script joke</p>
-                <img className="userProfileImage" alt="meme-img" src="/images/1.png" />
-                <Link className="button" to="/details/id">Details</Link>
-            </div>
-            <div className="user-meme">
-                <p className="user-meme-title">Bad code can present some problems</p>
-                <img className="userProfileImage" alt="meme-img" src="/images/3.png" />
-                <Link className="button" to="/details/id">Details</Link>
-            </div>
 
-            <p className="no-memes">No memes in database.</p>
+        {memes.length > 0 ? memes.map(MemeCard) : <p className="no-memes">No memes in database.</p>}
         </div>
     </section>
     );

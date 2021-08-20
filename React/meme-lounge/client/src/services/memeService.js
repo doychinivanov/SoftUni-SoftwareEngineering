@@ -7,7 +7,7 @@ async function getAllMemesSorted(token){
     return memes;
 }
 
-async function getMemesByUserId(userId){
+async function getMemesByUserId(userId, token){
     const memes = await api.get(memeUrl + `?where=_ownerId%3D%22${userId}%22&sortBy=_createdOn%20desc`);
 
     return memes;
@@ -31,8 +31,8 @@ async function editMeme(id, body){
     return editedMeme;
 }
 
-async function deleteMeme(id){
-    const meme = await api.del(memeUrl + `/${id}`);
+async function deleteMeme(id, token){
+    const meme = await api.del(memeUrl + `/${id}`, token);
 
     return meme;
 }

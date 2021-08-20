@@ -1,7 +1,7 @@
 import Options from './Options';
 import { useUser } from '../../context/UserContext';
 import { useEffect, useState } from 'react';
-import { getOneMeme } from "../../services/memeService";
+import { getOneMeme, deleteMeme } from "../../services/memeService";
 
 const Details = ({match}) => {
     const memeId = match.params.memeId; 
@@ -29,7 +29,7 @@ const Details = ({match}) => {
                     {currentMeme.description}
                 </p>
 
-                {currentMeme._ownerId === currentUser._id ? <Options/> : ''}
+                {currentMeme._ownerId === currentUser._id ? <Options onDeleteMeme={deleteMeme} token={token} memeId={memeId}/> : ''}
                 
             </div>
         </div>
