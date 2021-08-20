@@ -8,7 +8,7 @@ const IsGuest = (WrappedComponent) => {
         const history = useHistory();
         const currentUser = useUser();
 
-        if(currentUser){
+        if(Object.keys(currentUser).length > 0){
             history.push('/all');
             return null;
         }

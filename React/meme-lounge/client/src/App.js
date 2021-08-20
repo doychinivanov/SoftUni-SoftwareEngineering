@@ -31,7 +31,7 @@ function App() {
           <Route path="/edit/:memeId" component={isAuth(Edit)} />
           <Route path="/details/:memeId" component={isAuth(Details)} />
           <Route path="/profile" component={isAuth(Profile)} />
-          <Route path="/all" component={isAuth(Feed)} />
+          <Route path="/all" component={Feed} />
 
         </Switch>
       </UserProvider>

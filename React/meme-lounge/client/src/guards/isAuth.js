@@ -7,7 +7,7 @@ const isAuth = (WrappedComponent) => {
         const history = useHistory();
         const currentUser = useUser();
 
-        if(!currentUser){
+        if(Object.keys(currentUser).length === 0){
             history.push('/');
             return null;
         }
