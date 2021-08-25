@@ -1,0 +1,46 @@
+{{#if user}}
+<h1 class="text-center">Courses</h1>
+<section>
+    <a href="/course/create" class="btn btn-warning ">Create Course</a>
+
+    <form action="/" method="GET" class="search float-right">
+        <label>Search: </label>
+        <input type="text" name="courseName" placeholder="Search for courses" >
+        <button href="javascript:void(0)" type="submit" class="btn btn-primary">Search</button>
+    </form>
+</section>
+{{else}}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Tutorials</h1>
+        <p class="lead">Start Self-Learning Today: Be the best Developer in the company</p>
+    </div>
+</div>
+<h1 class="text-center">Top Courses</h1>
+{{/if}}
+
+<div>
+    <div class="container mt-3">
+        {{#if courses}}
+        <div class="row d-flex justify-content-center">
+
+            <div class="card-deck">
+
+                {{#if user}}
+                {{#each courses}}
+                {{> courseCardUser}}
+                {{/each}}
+                {{else}}
+                {{#each courses}}
+                {{> courseCard}}
+                {{/each}}
+                {{/if}}
+            </div>
+
+        </div>
+        {{else}}
+        <h4 class="text-center">No courses...</h4>
+        {{/if}}
+
+    </div>
+</div>
