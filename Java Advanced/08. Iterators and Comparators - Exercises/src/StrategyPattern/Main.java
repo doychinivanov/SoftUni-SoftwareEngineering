@@ -23,7 +23,7 @@ public class Main {
         }
 
         Consumer<Person> printPeople = person -> System.out.printf("%s %d" + System.lineSeparator(), person.getName(), person.getAge());
-        
+
         peopleSortedByName.forEach(printPeople);
         peopleSortedByAge.forEach(printPeople);
     }
