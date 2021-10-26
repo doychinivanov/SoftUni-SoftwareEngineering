@@ -1,0 +1,21 @@
+<h1 class="text-center">My Profile</h1>
+<div class="profile"><img src="/static/img/profile.png" alt="default user">
+    <h3>User Info:</h3>
+    <div class="flex">
+        <p>Username: </p>
+        <p>{{userData.username}}</p>
+    </div>
+
+    <div class="flex">
+        <p>Enrolled Courses: </p>
+        <p>
+            {{#if userData.enrolledCourses}}
+            {{#each userData.enrolledCourses}}
+                <span>{{this}}, </span>
+            {{/each}}
+        </p>
+            {{else}}
+        <span>No courses just yet... </span>
+            {{/if}}
+    </div>
+</div>
