@@ -5,7 +5,7 @@ public enum Discount {
     SECOND_VISIT(0.9),
     NONE(1);
 
-    private double value;
+    private final double value;
 
     Discount(double v) {
         this.value = v;

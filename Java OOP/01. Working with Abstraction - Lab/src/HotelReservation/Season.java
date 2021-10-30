@@ -6,7 +6,7 @@ public enum Season {
     WINTER(3),
     SUMMER(4);
 
-    private int value;
+    private final int value;
 
     Season(int value) {
         this.value = value;
