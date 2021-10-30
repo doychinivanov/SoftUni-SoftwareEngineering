@@ -1,4 +1,4 @@
-package JediGalaxy;
+package jediGalaxy;
 
 
 public class CommandHandler {

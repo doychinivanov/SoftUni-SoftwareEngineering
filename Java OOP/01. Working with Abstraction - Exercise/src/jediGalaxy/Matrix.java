@@ -1,6 +1,4 @@
-package JediGalaxy;
-
-import java.util.function.Predicate;
+package jediGalaxy;
 
 public class Matrix {
     private final int[][] matrix;

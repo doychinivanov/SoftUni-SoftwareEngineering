@@ -1,4 +1,4 @@
-package CardsWithPower;
+package cardsWithPower;
 
 public enum Suits {
     CLUBS(0),

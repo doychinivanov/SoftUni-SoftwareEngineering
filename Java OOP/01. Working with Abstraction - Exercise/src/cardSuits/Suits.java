@@ -1,4 +1,4 @@
-package CardSuits;
+package cardSuits;
 
 public enum Suits {
     CLUBS,

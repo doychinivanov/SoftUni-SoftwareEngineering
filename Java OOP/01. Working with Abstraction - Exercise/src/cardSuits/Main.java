@@ -1,4 +1,4 @@
-package CardSuits;
+package cardSuits;
 
 import java.util.Scanner;
 

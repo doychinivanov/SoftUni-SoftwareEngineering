@@ -1,4 +1,4 @@
-package CardinalRank;
+package cardinalRank;
 
 import java.util.Scanner;
 

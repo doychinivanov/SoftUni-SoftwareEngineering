@@ -1,4 +1,4 @@
-package CardsWithPower;
+package cardsWithPower;
 
 public enum Rank {
     ACE(14),
