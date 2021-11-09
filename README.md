@@ -21,7 +21,7 @@
 <tr>
 <td>
 
-| **Course**                                                            | **Certificate**                                                   |
+| **Course**                                                            | **Result**                                                   |
 | --------------------------------------------------------------------- | ---------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/3064/programming-basics-with-javascript-september-2020" > Programming Basics with JS </a>         | <a href="https://softuni.bg/certificates/details/89122/405333a8"> Link</a> |
 | <a href="https://softuni.bg/trainings/3211/js-fundamentals-january-2021"> Fundamentals with JS </a> | <a href="https://softuni.bg/certificates/details/103085/b9faf13a"> Link</a> |
@@ -32,7 +32,7 @@
 </td>
 <td>
 
-| **Course**                                                                                  | **Certificate**                                                                    |
+| **Course**                                                                                  | **Result**                                                                    |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/3485/java-advanced-september-2021"> Java Advanced </a>          | <a href="https://softuni.bg/certificates/details/114576/2236ceef"> Link </a> |
 <!-- | <a href="https://softuni.bg/trainings/2840/js-applications-june-2020"> Java OOP </a> | <a href="https://softuni.bg/certificates/details/86804/39c858a7"> Link </a> | -->
@@ -41,7 +41,7 @@
 
 <td>
 
-| **Course**                                                                               | **Certificate**                                                                    |
+| **Course**                                                                               | **Result**                                                                    |
 | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/3122/html-and-css-september-2020"> HTML & CSS </a> | <a href="https://softuni.bg/certificates/details/91256/5d5c8272"> Link </a> |
 <!-- | <a href="https://softuni.bg/trainings/3249/angular-november-2020"> React </a>          | <a href="https://softuni.bg/certificates/details/94796/261bec71"> Link </a> | -->
