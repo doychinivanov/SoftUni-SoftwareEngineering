@@ -10,15 +10,43 @@
 
 <h2> Certificates </h2>
 
+<table>
 
-| **Course**                                                            | **Certificate**                                                   |
+<tr>
+  <th> JavaScript </th>
+  <th> Java </th>
+  <th> Front-End </th>
+</tr>
+
+<tr>
+<td>
+
+| **Course**                                                            | **Link**                                                   |
 | --------------------------------------------------------------------- | ---------------------------------------------------------- |
-| <a href="https://softuni.bg/trainings/3064/programming-basics-with-javascript-september-2020" > Programming Basics with JavaScript </a>         | <a href="https://softuni.bg/certificates/details/89122/405333a8"> See More</a> |
-| <a href="https://softuni.bg/trainings/3211/js-fundamentals-january-2021"> Fundamentals with JavaScript </a>                                             | <a href="https://softuni.bg/certificates/details/103085/b9faf13a"> See More </a> |
-| <a href="https://softuni.bg/trainings/3347/js-advanced-may-2021"> JS Advanced </a> | <a href="https://softuni.bg/certificates/details/108153/4ea557af"> See More </a> |
-| <a href="https://softuni.bg/trainings/3348/js-applications-june-2021"> JS Application </a> | <a href="https://softuni.bg/certificates/details/110262/925d1ee5"> See More </a> |
-| <a href="https://softuni.bg/trainings/3122/html-and-css-september-2020"> HTML and CSS </a> | <a href="https://softuni.bg/certificates/details/91256/5d5c8272"> See More </a> |
+| <a href="https://softuni.bg/trainings/3064/programming-basics-with-javascript-september-2020" > Programming Basics with JS </a>         | <a href="https://softuni.bg/certificates/details/89122/405333a8"> Link</a> |
+| <a href="https://softuni.bg/trainings/3211/js-fundamentals-january-2021"> Fundamentals with JavaScript </a> | <a href="https://softuni.bg/certificates/details/65330/35ca2e73"> Link</a> |
+| <a href="https://softuni.bg/trainings/3347/js-advanced-may-2021"> JS Advanced </a>                                             | <a href="https://softuni.bg/certificates/details/108153/4ea557af"> Link</a> |
+| <a href="https://softuni.bg/trainings/3348/js-applications-june-2021"> JS Applications </a>                                                      | <a href="https://softuni.bg/certificates/details/110262/925d1ee5"> Link</a> |
+| <a href="hhttps://softuni.bg/trainings/3496/js-back-end-september-2021"> JS Back-End </a>   | <a href="https://softuni.bg/certificates/details/117795/f4dc830e"> Link</a> |
+
+</td>
+<td>
+
+| **Course**                                                                                  | **Link**                                                                    |
+| ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <a href="https://softuni.bg/trainings/3485/java-advanced-september-2021"> Java Advanced </a>          | <a href="https://softuni.bg/certificates/details/114576/2236ceef"> Link </a> |
+<!-- | <a href="https://softuni.bg/trainings/2840/js-applications-june-2020"> Java OOP </a> | <a href="https://softuni.bg/certificates/details/86804/39c858a7"> Link </a> | -->
+
+</td>
+
+<td>
+
+| **Course**                                                                               | **Link**                                                                    |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <a href="https://softuni.bg/trainings/3122/html-and-css-september-2020"> HTML & CSS </a> | <a href="https://softuni.bg/certificates/details/91256/5d5c8272"> Link </a> |
+<!-- | <a href="https://softuni.bg/trainings/3249/angular-november-2020"> React </a>          | <a href="https://softuni.bg/certificates/details/94796/261bec71"> Link </a> | -->
 
 </td>
 </tr>
 
+</table>
