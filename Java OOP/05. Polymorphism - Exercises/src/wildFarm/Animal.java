@@ -1,9 +1,9 @@
 package wildFarm;
 
 public abstract class Animal {
-    private String name;
-    private String type;
-    private double weight;
+    private final String name;
+    private final String type;
+    private final double weight;
     private int foodEaten;
 
     public Animal(String name, String type, double weight) {

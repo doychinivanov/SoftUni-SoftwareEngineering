@@ -3,7 +3,7 @@ package wildFarm;
 import java.text.DecimalFormat;
 
 public abstract class Mammal extends Animal{
-    private String livingRegion;
+    private final String livingRegion;
 
     public Mammal(String name, String type, double weight, String livingRegion) {
         super(name, type, weight);

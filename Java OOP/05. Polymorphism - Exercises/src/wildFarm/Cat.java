@@ -3,7 +3,7 @@ package wildFarm;
 import java.text.DecimalFormat;
 
 public class Cat extends Felime{
-    private String breed;
+    private final String breed;
 
     public Cat(String name, String type, double weight, String livingRegion, String breed) {
         super(name, type, weight, livingRegion);
