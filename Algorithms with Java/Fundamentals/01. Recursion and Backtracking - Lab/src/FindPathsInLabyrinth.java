@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class FindPathsInLabyrinth {
-    static List<Character> path = new ArrayList();
+    static List<Character> path = new ArrayList<>();
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
