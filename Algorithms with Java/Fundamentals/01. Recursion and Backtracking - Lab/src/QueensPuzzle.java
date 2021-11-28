@@ -26,13 +26,14 @@ public class QueensPuzzle {
     private static void findQueenPositions(int row) {
         if(row == BOARD_SIZE) {
             printSolution();
-        } else {
-            for (int col = 0; col < BOARD_SIZE; col++) {
-                if(canPlaceQueen(row, col)){
-                    putQueen(row, col);
-                    findQueenPositions(row + 1);
-                    removeQueen(row, col);
-                }
+            return;
+        }
+
+        for (int col = 0; col < BOARD_SIZE; col++) {
+            if(canPlaceQueen(row, col)){
+                putQueen(row, col);
+                findQueenPositions(row + 1);
+                removeQueen(row, col);
             }
         }
     }
