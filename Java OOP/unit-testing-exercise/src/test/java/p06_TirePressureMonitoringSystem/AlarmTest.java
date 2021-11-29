@@ -12,8 +12,6 @@ public class AlarmTest {
     private static final double LOW_PRESSURE_VALUE = 16.0;
     private static final double NORMAL_PRESSURE_VALUE = 18.0;
 
-
-
     Alarm alarm;
     Sensor mockedSensor;
 
