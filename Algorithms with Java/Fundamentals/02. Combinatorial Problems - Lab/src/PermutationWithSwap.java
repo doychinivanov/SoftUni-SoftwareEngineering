@@ -9,18 +9,18 @@ public class PermutationWithSwap {
         permute(arrToPermute,0);
     }
 
-    private static void permute(String[] arrToPermute, int index) {
-        if(index == arrToPermute.length) {
+    private static void permute(String[] arrToPermute, int mainArrIndex) {
+        if(mainArrIndex == arrToPermute.length) {
             printArr(arrToPermute);
             return;
         }
 
-        permute(arrToPermute, index + 1);
+        permute(arrToPermute, mainArrIndex + 1);
 
-        for (int i = index + 1; i < arrToPermute.length; i++) {
-            swap(arrToPermute, index, i);
-            permute(arrToPermute, index + 1);
-            swap(arrToPermute, index, i);
+        for (int currentPermutationIndex = mainArrIndex + 1; currentPermutationIndex < arrToPermute.length; currentPermutationIndex++) {
+            swap(arrToPermute, mainArrIndex, currentPermutationIndex);
+            permute(arrToPermute, mainArrIndex + 1);
+            swap(arrToPermute, mainArrIndex, currentPermutationIndex);
         }
     }
 
