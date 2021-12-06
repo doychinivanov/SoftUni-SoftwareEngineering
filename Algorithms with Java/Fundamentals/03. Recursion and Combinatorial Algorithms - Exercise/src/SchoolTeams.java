@@ -7,13 +7,14 @@ import java.util.List;
 public class SchoolTeams {
     private static final int allowedGirls = 3;
     private static final int allowedBoys = 2;
+
     private static String[] girls;
+    private static String[] boys;
     private static String[] currentGirlsCombination;
     private static String[] currentBoysCombination;
-    private static String[] boys;
 
-    private static List<String> allGirlsCombinations = new ArrayList<>();
-    private static List<String> allBoysCombinations = new ArrayList<>();
+    private static final List<String> allGirlsCombinations = new ArrayList<>();
+    private static final List<String> allBoysCombinations = new ArrayList<>();
     
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
