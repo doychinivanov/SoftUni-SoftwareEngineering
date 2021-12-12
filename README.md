@@ -35,7 +35,7 @@
 | **Course**                                                                                  | **Result**                                                                    |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/3485/java-advanced-september-2021"> Java Advanced </a>          | <a href="https://softuni.bg/certificates/details/114576/2236ceef"> Link </a> |
-<!-- | <a href="https://softuni.bg/trainings/2840/js-applications-june-2020"> Java OOP </a> | <a href="https://softuni.bg/certificates/details/86804/39c858a7"> Link </a> | -->
+| <a href="https://softuni.bg/trainings/3486/java-oop-october-2021"> Java OOP </a> | <a href="https://softuni.bg/certificates/details/120251/d9f7d9f5"> Link </a> |
 
 </td>
 
