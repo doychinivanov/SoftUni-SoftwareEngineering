@@ -65,8 +65,78 @@ public class Main {
         }
     }
 
+    private static void dfs(String key, Set<String> visited, Map<String, List<String>> graph, List<String> sorted, Set<String> detectCycles) {
+        if (detectCycles.contains(key)) throw new IllegalArgumentException();
+
+        if (!visited.contains(key)) {
+            visited.add(key);
+            detectCycles.add(key);
+
+            for (String child : graph.get(key)) {
+                dfs(child, visited, graph, sorted, detectCycles);
+            }
+
+            detectCycles.remove(key);
+            sorted.add(key);
+        }
+    }
+
     public static Collection<String> topSort(Map<String, List<String>> graph) {
-        throw new AssertionError("Not Implemented");
+        List<String> sortedByTopologicalDependencies = new ArrayList<>();
+
+        Set<String> visited = new HashSet<>();
+        Set<String> detectCycles = new HashSet<>();
+
+        for (Map.Entry<String, List<String>> node : graph.entrySet()) {
+            dfs(node.getKey(), visited, graph, sortedByTopologicalDependencies, detectCycles);
+        }
+
+        Collections.reverse(sortedByTopologicalDependencies);
+
+        return sortedByTopologicalDependencies;
+    }
+
+    public static Collection<String> topSort2(Map<String, List<String>> graph) {
+        Map<String, Integer> dependenciesCount = getDependenciesCount(graph);
+
+        List<String> sortedByTopologicalDependencies = new ArrayList<>();
+
+        while (!graph.isEmpty()){
+            String currentNodeWithoutDependencies = graph
+                    .keySet()
+                    .stream()
+                    .filter(k -> dependenciesCount.get(k) == 0)
+                    .findFirst()
+                    .orElse(null);
+
+            if (currentNodeWithoutDependencies == null) break;
+
+            graph.get(currentNodeWithoutDependencies)
+                    .forEach(child -> dependenciesCount.put(child, dependenciesCount.get(child) - 1));
+
+            sortedByTopologicalDependencies.add(currentNodeWithoutDependencies);
+            graph.remove(currentNodeWithoutDependencies);
+        }
+
+        if (!graph.isEmpty()) throw new IllegalArgumentException();
+
+        return sortedByTopologicalDependencies;
+
+    }
+
+    private static Map<String, Integer> getDependenciesCount(Map<String, List<String>> graph) {
+        Map<String, Integer> dependenciesCount = new LinkedHashMap<>();
+
+        for (Map.Entry<String, List<String>> node : graph.entrySet()) {
+            dependenciesCount.putIfAbsent(node.getKey(), 0);
+
+            for (String child: node.getValue()) {
+                dependenciesCount.putIfAbsent(child, 0);
+                dependenciesCount.put(child, dependenciesCount.get(child) + 1);
+            }
+        }
+
+        return dependenciesCount;
     }
 
     private static void printResult(List<Deque<Integer>> connectedComponents) {
