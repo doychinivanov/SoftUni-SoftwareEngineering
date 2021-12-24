@@ -26,7 +26,7 @@ public class DistanceBetweenVertices {
 
             int source = relations[0];
             int destination = relations[1];
-            
+
             int[] prev = new int[graph.length];
             Arrays.fill(prev, -1);
 
