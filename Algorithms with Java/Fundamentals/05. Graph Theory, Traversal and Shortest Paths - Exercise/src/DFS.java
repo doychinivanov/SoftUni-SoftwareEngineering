@@ -16,7 +16,7 @@ public class DFS {
         readGraphFromConsole(reader, notesAmount);
 
         for (String node: graph.keySet()) {
-            dfs(node);
+            bfs(node);
         }
 
         printResult();
