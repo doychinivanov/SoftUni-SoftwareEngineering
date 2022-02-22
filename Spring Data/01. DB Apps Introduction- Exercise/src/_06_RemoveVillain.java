@@ -12,7 +12,7 @@ public class _06_RemoveVillain {
     public static void main(String[] args) throws SQLException, IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        DBConnection db = new DBConnection("root", "stewart79");
+        DBConnection db = new DBConnection("root", "your-password");
         Connection connection = db.setConnection();
 
         int villainId = Integer.parseInt(reader.readLine());
