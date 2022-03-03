@@ -2,6 +2,7 @@ package entities;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.Set;
 
@@ -69,5 +70,19 @@ public class Project {
 
     public void setEmployees(Set<Employee> employees) {
         this.employees = employees;
+    }
+
+    @Override
+    public String toString() {
+        SimpleDateFormat formatter = new SimpleDateFormat("dd-M-yyyy hh:mm:ss");
+        StringBuilder result = new StringBuilder();
+
+        result.append("Project name: ").append(this.name).append(System.lineSeparator());
+
+        result.append("\t").append("Project Description: ").append(this.description).append(System.lineSeparator());
+        result.append("\t").append("Project Start Date: ").append(this.startDate.toString()).append(System.lineSeparator());
+        result.append("\t").append("Project End Date: ").append(this.endDate == null ? "null" : this.endDate.toString()).append(System.lineSeparator());
+
+        return result.toString();
     }
 }
