@@ -3,6 +3,8 @@ package entities;
 import javax.persistence.*;
 import java.util.Set;
 
+import static javax.persistence.CascadeType.ALL;
+
 @Entity
 @Table(name = "addresses")
 public class Address {
@@ -31,7 +33,7 @@ public class Address {
         this.text = text;
     }
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "town_id",referencedColumnName = "town_id")
     public Town getTown() {
         return town;
