@@ -1,7 +1,5 @@
 package com.json.processing.entities.products;
 
-import com.json.processing.entities.users.User;
-
 import java.math.BigDecimal;
 
 public class ProductWithNoBuyerDTO {

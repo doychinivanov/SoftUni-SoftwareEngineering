@@ -3,7 +3,8 @@ package com.json.processing.entities.categories;
 import javax.persistence.*;
 import java.util.Objects;
 
-@Entity(name = "categories")
+@Entity
+@Table(name = "categories")
 public class Category {
 
     @Id

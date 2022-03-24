@@ -12,8 +12,7 @@ import java.util.List;
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Integer> {
 
-    @Query("SELECT new com.json.processing.entities.products.ProductWithNoBuyerDTO(" +
-            "p.name, p.price, p.seller.firstName, p.seller.lastName)" +
+    @Query("SELECT new com.json.processing.entities.products.ProductWithNoBuyerDTO(p.name, p.price, p.seller.firstName, p.seller.lastName)" +
             " FROM Product p" +
             " WHERE p.price > :rangeStart AND p.price < :rangeEnd AND p.buyer IS NULL" +
             " ORDER BY p.price ASC")
