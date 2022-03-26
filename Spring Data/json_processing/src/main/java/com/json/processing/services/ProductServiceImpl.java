@@ -1,5 +1,6 @@
 package com.json.processing.services;
 
+import com.json.processing.entities.categories.CategoryStatDTO;
 import com.json.processing.entities.products.Product;
 import com.json.processing.entities.products.ProductWithNoBuyerDTO;
 import com.json.processing.repositories.ProductRepository;
@@ -29,4 +30,11 @@ public class ProductServiceImpl implements ProductService{
         return this.productRepository.findAllByPriceBetweenAndBuyerIsNullOrderByPriceAsc(rangeStart, rangeEnd);
 
     }
+
+    @Override
+    public List<CategoryStatDTO> getCategoryStats() {
+        return this.productRepository.getCategoryStats();
+    }
+
+
 }

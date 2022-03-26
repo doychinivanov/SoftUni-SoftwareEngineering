@@ -1,5 +1,6 @@
 package com.json.processing.repositories;
 
+import com.json.processing.entities.categories.CategoryStatDTO;
 import com.json.processing.entities.products.Product;
 import com.json.processing.entities.products.ProductWithNoBuyerDTO;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -17,4 +18,10 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
             " WHERE p.price > :rangeStart AND p.price < :rangeEnd AND p.buyer IS NULL" +
             " ORDER BY p.price ASC")
     List<ProductWithNoBuyerDTO> findAllByPriceBetweenAndBuyerIsNullOrderByPriceAsc(BigDecimal rangeStart, BigDecimal rangeEnd);
+
+    @Query("SELECT new com.json.processing.entities.categories.CategoryStatDTO(c.name, COUNT(p), AVG(p.price), SUM(p.price))" +
+            " FROM Product p" +
+            " JOIN p.categories c" +
+            " GROUP BY c")
+    List<CategoryStatDTO> getCategoryStats();
 }
