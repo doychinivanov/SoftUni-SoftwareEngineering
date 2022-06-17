@@ -5,6 +5,7 @@ import com.example.demo.models.dto.LoginDTO;
 import com.example.demo.models.dto.UserRegistrationDTO;
 import com.example.demo.repositories.UserRepository;
 import com.example.demo.services.AuthService;
+import com.example.demo.session.UserSession;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -17,12 +18,14 @@ public class AuthServiceImpl implements AuthService {
     private UserRepository userRepository;
     private ModelMapper modelMapper;
     private PasswordEncoder passwordEncoder;
+    private UserSession userSession;
 
     @Autowired
-    public AuthServiceImpl(UserRepository userRepository, ModelMapper modelMapper, PasswordEncoder passwordEncoder) {
+    public AuthServiceImpl(UserRepository userRepository, ModelMapper modelMapper, PasswordEncoder passwordEncoder, UserSession userSession) {
         this.userRepository = userRepository;
         this.modelMapper = modelMapper;
         this.passwordEncoder = passwordEncoder;
+        this.userSession = userSession;
     }
 
     @Override
@@ -41,6 +44,7 @@ public class AuthServiceImpl implements AuthService {
         registrationDTO.setPassword(passwordEncoder.encode(registrationDTO.getPassword()));
         User newUser = this.modelMapper.map(registrationDTO, User.class);
         this.userRepository.save(newUser);
+        this.userSession.login(newUser);
         return true;
     }
 
@@ -48,6 +52,17 @@ public class AuthServiceImpl implements AuthService {
     public boolean login(LoginDTO loginDTO) {
         Optional<User> optUser = this.userRepository.findByUsername(loginDTO.getUsername());
 
-        return optUser.isPresent() && !passwordEncoder.matches(loginDTO.getPassword(), optUser.get().getPassword());
+        if (optUser.isEmpty() || !passwordEncoder.matches(loginDTO.getPassword(), optUser.get().getPassword())) {
+            return false;
+        }
+
+        userSession.login(optUser.get());
+        return true;
+    }
+
+    @Override
+    public boolean logout() {
+        this.userSession.logout();
+        return true;
     }
 }

@@ -1,6 +1,7 @@
 package com.example.demo.models;
 
 import javax.persistence.*;
+import javax.validation.constraints.Positive;
 import java.time.LocalDate;
 
 @Table(name = "ships")
@@ -16,6 +17,18 @@ public class Ship {
 
     @Column(nullable = false)
     private long health;
+
+    @Column(nullable = false)
+    @Positive
+    private long power;
+
+    public long getPower() {
+        return power;
+    }
+
+    public void setPower(long power) {
+        this.power = power;
+    }
 
     @Column(nullable = false)
     private LocalDate created;
