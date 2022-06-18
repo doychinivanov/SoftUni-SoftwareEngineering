@@ -22,14 +22,6 @@ public class Ship {
     @Positive
     private long power;
 
-    public long getPower() {
-        return power;
-    }
-
-    public void setPower(long power) {
-        this.power = power;
-    }
-
     @Column(nullable = false)
     private LocalDate created;
 
@@ -40,6 +32,14 @@ public class Ship {
     private Category category;
 
     public Ship() {}
+
+    public long getPower() {
+        return power;
+    }
+
+    public void setPower(long power) {
+        this.power = power;
+    }
 
     public long getId() {
         return id;

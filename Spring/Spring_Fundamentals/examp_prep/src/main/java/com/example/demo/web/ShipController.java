@@ -1,6 +1,8 @@
 package com.example.demo.web;
 
 import com.example.demo.models.dto.CreateShipDTO;
+import com.example.demo.services.ShipService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +14,12 @@ import javax.validation.Valid;
 
 @Controller
 public class ShipController {
+    private ShipService shipService;
+
+    @Autowired
+    public ShipController(ShipService shipService) {
+        this.shipService = shipService;
+    }
 
     @ModelAttribute("createShipDTO")
     public CreateShipDTO initRegistrationDto() {
@@ -28,12 +36,13 @@ public class ShipController {
                              BindingResult bindingResult,
                              RedirectAttributes redirectAttributes) {
 
-        if (bindingResult.hasErrors()) {
+        if (bindingResult.hasErrors() || !this.shipService.createShip(createShipDTO)) {
             redirectAttributes.addFlashAttribute("createShipDTO", createShipDTO);
             redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.createShipDTO", bindingResult);
 
             return "redirect:/ships/add";
         }
+
 
         return "redirect:/home";
     }

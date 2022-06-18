@@ -25,9 +25,9 @@
                         <div class="mb-1 text-white">Select one of the ships that are owned by the current user</div>
                         <select class="form-select mt-5" aria-label="Default select example">
                             <option selected>Select one of the ships that are owned by the current user</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <th:block th:each="userShip: ${userShips}">
+                                <option th:text="${userShip.getName()}" value="${userShip.getName()}"></option>
+                            </th:block>
                         </select>
                     </div>
                     <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb"
@@ -46,9 +46,9 @@
                         <div class="mb-1 text-white">Select one of the ships that are owned by other users</div>
                         <select class="form-select mt-5" aria-label="Default select example">
                             <option selected>Select one of the ships that are owned by other users</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <th:block th:each="enemyShip: ${enemyShips}">
+                                <option th:text="${enemyShip.getName()}" value="${enemyShip.getName()}"></option>
+                            </th:block>
                         </select>
                     </div>
                     <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb"
@@ -65,8 +65,11 @@
                     <h4 class="d-inline-block mb-2 text-primary align-self-center">The All Ships And Their Status</h4>
                     <div class="text-center">
                         <h5>Name -- Health -- Power </h5>
-                        <ul>
-                            <li class="font-weight-bold">| Name    | Health    | Power    |</li>
+                        <ul th:each="ship: ${allShips}">
+<!--                            | Name    | Health    | Power    |-->
+                            <li th:text="${ship.getName()} + ' | ' + ${ship.getHealth()} + ' | ' + ${ship.getPower()}" class="font-weight-bold">
+
+                            </li>
                         </ul>
                     </div>
                 </div>

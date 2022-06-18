@@ -1,6 +1,5 @@
 package com.example.demo.models.dto;
 
-import com.example.demo.models.ShipType;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.validation.constraints.*;
@@ -22,7 +21,7 @@ public class CreateShipDTO {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate created;
 
-    @Positive
+    @PositiveOrZero
     private int category = -1;
 
     public CreateShipDTO() {}
